@@ -1,0 +1,11 @@
+models/
+data/
+logs/
+.idea/
+venv/
+nlu_traindata_tool/
+
+
+*.log
+*.pyc
+*.swp

@@ -1,0 +1,9 @@
+{
+  "pipeline": ["nlp_spacy", "tokenizer_spacy", "intent_entity_featurizer_regex", "src.nlu.TextVectorizer", "src.nlu.CombinedExtractor", "ner_synonyms", "src.nlu.MultinomialBayesClassifier"],
+  "path" : "./models/nlu",
+  "data" : "./data/nlu_traindata.json",
+  "project": "ner-de",
+  "fixed_model_name": "spacy_regex_mb",
+  "language": "de",
+  "num_threads": 3
+}
