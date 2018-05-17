@@ -1,5 +1,5 @@
 # Chatmate
-A chatbot which understands user input by applying intent classification and NER, and generates a suggestion of possiable response based on neural network. Current version has only been trained and tested in german language.
+A chatbot which understands user input by applying intent classification and NER, and generates a suggestion of possible response based on neural network. Current version has only been trained and tested in german language.
 
 ## Chatbot Setup Instructions:
 * virtualenv venv -p /usr/bin/python3
